@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p 'qual o string?
+read -p 'string: ?
 ' string
 echo "$string"
 find . -type f -name '*.txt' -exec \
